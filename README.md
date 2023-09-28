@@ -1,6 +1,6 @@
 # anudip-miniproject2
-1.The Employee class represents a basic employee in the company.
- Employee has two parameters name and base 
+1.Employee 
+Employee has two parameters name and base 
 salary
 getBaseSalary() returns the employee's base salary
 getName() returns the  employee's name
@@ -10,7 +10,6 @@ equals(Employee other)  returns true if the two employee’s ID are the same,
 false otherwise
 toString() returns a string representation of the employee as "ID Name".
 employeeStatus() provides a string representation of the employee's status.
-
 
 2. TechnicalEmployee has default base salary of 75000.
 employeeStatus() returns a string representation that includes the employee's ID and the number of successful check-ins.
@@ -55,7 +54,6 @@ addReport(Accountant e, TechnicalLead supportTeam) adds an accountant as a direc
 requestBonus(Employee e, double bonus) checks if the bonus can be afforded by the business lead's budget.
 approveBonus(Employee e, double bonus) consults accountants to see if the bonus can be afforded and rewards it if possible.
 subclassof  BusinessEmployee
-
 
 The CompanyStructure class contains the main method for testing.
 
